@@ -142,7 +142,7 @@ else:
 
 
 
-get_ipython().system('streamlit run /content/drive/MyDrive/notebook.ipynb &')
+
 
 """**Reasoning**:
 The previous attempt to run Streamlit failed because the command was not found. This indicates that Streamlit is not installed or not in the system's PATH. Install Streamlit and try running the command again.
