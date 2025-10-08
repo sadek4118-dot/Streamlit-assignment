@@ -140,14 +140,7 @@ if not filtered_data.empty:
 else:
     st.write("No data matches the selected town and tourism index filters to display towns with low tourism index.")
 
-"""## Run streamlit app
 
-### Subtask:
-Run the Streamlit app in the background.
-
-**Reasoning**:
-Run the Streamlit app in the background using the `streamlit run` command with the notebook path.
-"""
 
 get_ipython().system('streamlit run /content/drive/MyDrive/notebook.ipynb &')
 
