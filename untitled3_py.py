@@ -144,18 +144,7 @@ else:
 
 
 
-"""**Reasoning**:
-The previous attempt to run Streamlit failed because the command was not found. This indicates that Streamlit is not installed or not in the system's PATH. Install Streamlit and try running the command again.
 
-
-"""
-
-
-
-"""**Reasoning**:
-Streamlit cannot run `.ipynb` files directly. The Python code from the notebook needs to be extracted and saved as a `.py` file.
-
-"""
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
@@ -292,10 +281,6 @@ Streamlit cannot run `.ipynb` files directly. The Python code from the notebook 
 # else:
 #     st.write("No data matches the selected town and tourism index filters to display towns with low tourism index.")
 
-"""**Reasoning**:
-The Streamlit code has been successfully written to `app.py`. Now, run the Streamlit application using the `streamlit run` command on the new `.py` file in the background.
 
 
-"""
 
-get_ipython().system('streamlit run app.py &')
