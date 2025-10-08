@@ -152,7 +152,7 @@ Install the ngrok library in the Colab environment.
 The subtask is to install the ngrok library. The instruction specifies using `!pip install ngrok`.
 """
 
-!pip install ngrok
+
 
 """## Run streamlit app
 
