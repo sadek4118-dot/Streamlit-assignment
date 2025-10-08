@@ -140,44 +140,6 @@ if not filtered_data.empty:
 else:
     st.write("No data matches the selected town and tourism index filters to display towns with low tourism index.")
 
-"""# Task
-Generate an ngrok link for the Streamlit application running in the notebook.
-
-## Install ngrok
-
-### Subtask:
-Install the ngrok library in the Colab environment.
-
-**Reasoning**:
-The subtask is to install the ngrok library. The instruction specifies using `!pip install ngrok`.
-"""
-
-
-
-"""## Run streamlit app
-
-### Subtask:
-Run the Streamlit app in the background.
-
-**Reasoning**:
-Run the Streamlit app in the background using the `streamlit run` command with the notebook path.
-"""
-
-get_ipython().system('streamlit run /content/drive/MyDrive/notebook.ipynb &')
-
-"""**Reasoning**:
-The previous attempt to run Streamlit failed because the command was not found. This indicates that Streamlit is not installed or not in the system's PATH. Install Streamlit and try running the command again.
-
-
-"""
-
-get_ipython().system('pip install streamlit')
-get_ipython().system('streamlit run /content/drive/MyDrive/notebook.ipynb &')
-
-"""**Reasoning**:
-Streamlit cannot run `.ipynb` files directly. The Python code from the notebook needs to be extracted and saved as a `.py` file.
-
-
 """
 
 # Commented out IPython magic to ensure Python compatibility.
