@@ -150,8 +150,7 @@ The previous attempt to run Streamlit failed because the command was not found. 
 
 """
 
-get_ipython().system('pip install streamlit')
-get_ipython().system('streamlit run /content/drive/MyDrive/notebook.ipynb &')
+
 
 """**Reasoning**:
 Streamlit cannot run `.ipynb` files directly. The Python code from the notebook needs to be extracted and saved as a `.py` file.
