@@ -140,20 +140,6 @@ if not filtered_data.empty:
 else:
     st.write("No data matches the selected town and tourism index filters to display towns with low tourism index.")
 
-"""# Task
-Generate an ngrok link for the Streamlit application running in the notebook.
-
-## Install ngrok
-
-### Subtask:
-Install the ngrok library in the Colab environment.
-
-**Reasoning**:
-The subtask is to install the ngrok library. The instruction specifies using `!pip install ngrok`.
-"""
-
-
-
 """## Run streamlit app
 
 ### Subtask:
